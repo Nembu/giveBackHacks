@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Monoton&family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nova+Mono&display=swap');
+
 
 * {
     box-sizing: border-box;
@@ -12,10 +14,10 @@
 li,
 a,
 button {
-    font-family: "Lucy The Cat", sans-serif;
+    font-family: "Nova Mono", monospace;
     font-weight: 500;
     font-size: 16px;
-    color: white;
+    color: #FFF;
     text-decoration: none;
 
 }
@@ -101,7 +103,6 @@ body {
     width: 200px;
     height: 200px;
 }
-
 #rcorners5 {
     display: inline-flex;
     flex-direction: row;
@@ -158,14 +159,16 @@ body {
 
 .wrapper {
     display: flex;
-    felx-wrap: wrap;
+    flex-wrap: wrap;
     justify-content: center;
+    color: rgb(161, 60, 60);
 }
 
 .card {
     overflow: hidden;
     box-shadow: 0px 2px 20px var(--clr-gray-light);
-    background: white;
+    background-image:
+    linear-gradient(#ffd5db, #fffefe);
     border-radius: 0.5rem;
     position: relative;
     width: 350px;
@@ -178,7 +181,7 @@ body {
     transform: scale(1.05);
     box-shadow: Opx 2px 40px var(--clr-gray-light);
     transition: 250ms all ease-in-out;
-    cursor: pointer;
+    cursor: default;
 
 }
 
@@ -191,10 +194,10 @@ body {
 }
 
 .category-tag {
-    font-size: ;
-    font-weight: ;
+   /* font-size: ;
+    font-weight: ; */
     color: white;
-    background: ;
+    background: #FFF;
     padding: 0.5rem 1.3rem 0.5rem 1rem;
     text-transform: uppercase;
     position: absoulute;
@@ -203,9 +206,11 @@ body {
     border-radius: 0 2rem 2rem 0;
 }
 
-.popular {
+#popular {
     background: var(--clr-popular);
-
+    color:#993737;
+    font-family: "Nova Mono", cursive;
+    font-size: 1.5em;
 }
 
 .grammy {
@@ -355,3 +360,17 @@ body {
     width: 200px;
     height: auto;
 }
+/*Button Gradient*/
+#gradient {
+    background-image:
+    linear-gradient(#66010e, #db001c);
+}
+
+/* To Center The Carousel and Jumbotrons */
+.carousel-inner img {
+    margin: auto;
+  }
+
+  .jumbotron {
+      margin: auto;
+  }
