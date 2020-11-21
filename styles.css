@@ -374,3 +374,43 @@ body {
   .jumbotron {
       margin: auto;
   }
+
+.book:hover {
+    visibility: hidden;
+    transition-delay: 1s;
+    content: url(book-hover.png);
+}
+
+.chat:hover {
+    visibility: hidden;
+    transition-delay: 1s;
+    content: url(chat-hover.png);
+}
+
+.road:hover {
+    visibility: hidden;
+    transition-delay: 1s;
+    content: url(road-hover.png);
+}
+
+.container {
+    margin: 20px;
+}
+
+.code-meme-8,
+.code-meme-7,
+.code-meme-6,
+.code-meme-5,
+.code-meme-4,
+.code-meme-3,
+.code-meme-2,
+.code-meme-1 {
+    margin: 20px;
+}
+
+
+.unicorn-swag {
+    margin-left: 50px;
+    width: 200px;
+    height: auto;
+}
