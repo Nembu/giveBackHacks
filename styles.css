@@ -263,7 +263,7 @@ object-fit: contain;
     color: #be4141;
 }
 
-.profile-followers {
+.profile-location {
     color: var(--clr-gray-med);
     font-size: 0.9rem;
 }
@@ -282,10 +282,6 @@ object-fit: contain;
 
 }
 
-.quote {
-    width: 100px;
-    height: 100px;
-}
 
 .road {
     width: 100px;
@@ -498,4 +494,5 @@ li {
 .blog-title {
     line-height: 1.5em;
     margin: 1rem 0 0 1.5rem;
+    font-size: 50px;
 }
