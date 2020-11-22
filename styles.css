@@ -21,11 +21,11 @@ button {
 }
 
 header {
-    display: flex;
+
     justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
-    font-family: 'Press Start 2P', cursive;
+    font-family: "Press Start 2P", sans-serif;
     color: white;
 }
 
@@ -50,7 +50,8 @@ header {
 }
 
 .nav_links li a:hover {
-    color: #0088a9
+    color: #0088a9;
+
 }
 
 button {
@@ -60,10 +61,12 @@ button {
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
+    border: 6px solid transparent;
 }
 
 button:hover {
-    background-color: rgba(0, 136, 169, 1);
+    background-color: rgb(241, 79, 120);
+    border-width: thick;
 }
 
 
@@ -88,7 +91,7 @@ h2 {
 }
 
 body {
-    background-image: linear-gradient(#ee0979, #ff6a00);
+    background-image: linear-gradient(#ff718b, #971132);
     background-repeat: no-repeat;
 }
 
@@ -182,19 +185,17 @@ body {
 
 }
 
-.banner-img {
-    position: absolute;
-    object-fit: cover;
-    height: 14rem;
-    width: 100%;
-
+.card-image {
+    width: 200px;
+    margin-left: 50px;
 }
 
+
 .category-tag {
-    font-size: ;
-    font-weight: ;
+
     color: white;
-    background: ;
+    background-image: linear-gradient(rgb(228, 153, 153), rgb(255, 224, 224));
+    ;
     padding: 0.5rem 1.3rem 0.5rem 1rem;
     text-transform: uppercase;
     position: absoulute;
@@ -223,11 +224,9 @@ body {
     color: var(--clr-link);
 }
 
-.blog-title {
-    line-height: 1.5rem;
-    margin: 1rem 0 0 0.5rem;
 
-}
+
+
 
 .log-description {
     color: var(--clr-gray-med);
@@ -351,7 +350,7 @@ body {
 }
 
 .unicorn-smile {
-
+    margin: 30px;
     width: 200px;
     height: auto;
 }
@@ -405,4 +404,91 @@ body {
 
 .jumbotron {
     margin: auto;
+}
+
+h3,
+h4 {
+    color: pink;
+    margin: 80px
+}
+
+ul,
+li {
+    color: rgb(250, 133, 98);
+    font-family: 'Press Start 2P';
+    list-style-type: none;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.Inspiration-part {
+    text-align: center;
+}
+
+.pros {
+    background-color: #ff718b;
+
+    display: flex;
+    display: inline-flex;
+    flex-direction: row;
+    width: 200px;
+    padding-left: 20px;
+    height: 100px;
+    margin-left: 70px;
+    margin-bottom: 20px;
+    border-radius: 50px;
+    font-family: "Press Start 2P";
+    color: white;
+}
+
+#turkey {
+    max-height: 1000px;
+    border-top: 5px solid #3b1110;
+    overflow: hidden;
+}
+
+.banner-img {
+    position: absolute;
+    object-fit: cover;
+    height: 3em;
+    width: 13%;
+
+}
+
+.banner-img-2 {
+    position: absolute;
+    object-fit: cover;
+
+    width: 600px;
+    height: 200px;
+
+}
+
+.unicorn {
+
+    width: 220px;
+    height: auto;
+}
+
+.footer {
+    object-fit: contain;
+    text-align: center;
+}
+
+#turkey {
+    border: 5px solid #3b1110;
+    overflow: hidden;
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+.footer {
+    object-fit: contain;
+    text-align: center;
+}
+
+.blog-title {
+    line-height: 1.5em;
+    margin: 1rem 0 0 1.5rem;
 }
