@@ -20,6 +20,7 @@ button {
 
 }
 
+
 header {
 
     justify-content: space-between;
@@ -33,12 +34,18 @@ header {
     cursor: pointer;
     width: 50px;
     height: auto;
+  
 
+}
+
+h1 {
+    font-family: cursive;
 }
 
 .nav_links {
     list-style: none;
 }
+
 
 .nav_links li {
     display: inline-block;
@@ -104,7 +111,6 @@ body {
     width: 200px;
     height: 200px;
 }
-
 #rcorners5 {
     display: inline-flex;
     flex-direction: row;
@@ -161,7 +167,7 @@ body {
 
 .wrapper {
     display: flex;
-    felx-wrap: wrap;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
@@ -235,7 +241,7 @@ body {
 
 .card-profile {
     display: flex;
-    /* display:flex; is used so that the image and the text about the person can be side by side*/
+    /* display:flex; is used so that the image and text can be side by side*/
     margin-top: 2rem;
     align-items: center;
 }
@@ -254,6 +260,7 @@ body {
 
 .profile-name {
     font-size: 1rem;
+    color: #be4141;
 }
 
 .profile-followers {
@@ -262,12 +269,12 @@ body {
 }
 
 .display-4 {
-    color: pink;
+    color: rgb(216, 122, 138);
 }
 
 .jumbotron {
     background-color: orangered;
-    color: pink;
+    color: rgb(219, 144, 156);
     width: 800px;
     text-align: center;
     margin-left: 200px;
